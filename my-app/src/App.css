@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+.main{
+  background-color: rgb(226, 226, 226);
+   height: 80vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+     justify-content: center;
+      align-items: center;
+
+  }
+
+.inner{
+  box-shadow: 0px 20px 41px -19px;
+  height: 90%;
+  width: 60%;
+  margin: auto;
+  background-color: rgb(114, 98, 255);  
+  border-radius: 10px;
+
+
+}
+
+.title{
+text-align: center;
+height: 120px;
+width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.input{
+text-align: start;
+background-color: white;  
+height: 40px;
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.input>input{
+  height: 84%;
+  width: 90%;
+font-size: large;
+}
+
+.input>input:focus{outline: none;}
+
