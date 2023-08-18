@@ -54,10 +54,16 @@
   margin: auto;
   background-color: rgb(114, 98, 255);  
   border-radius: 10px;
+   overflow-y: auto;
 
 
 }
 
+
+.main-head{
+  text-align:  center;
+  color: rgb(250, 32, 98);
+}
 .title{
 text-align: center;
 height: 120px;
@@ -81,7 +87,33 @@ align-items: center;
   height: 84%;
   width: 90%;
 font-size: large;
+border: none;
 }
 
 .input>input:focus{outline: none;}
 
+.list{
+
+  margin-top: 8px;
+  
+}
+
+.list > li{
+  height:35px;
+  width:97%;
+  background-color:#fed32e;
+  list-style-type:none;
+  margin:  auto ;
+  border-radius: 4px;
+  display: flex ;
+  justify-content:  space-between;
+  align-items: center;
+  margin-top: 12px;
+ 
+}
+.list > li>span{
+
+  /* right:0%; */
+  margin-right: 5px;
+  cursor: pointer;
+}
